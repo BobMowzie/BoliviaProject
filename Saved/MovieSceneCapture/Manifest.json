@@ -1,0 +1,90 @@
+{
+	"Type": "/Script/MovieSceneCapture.AutomatedLevelSequenceCapture",
+	"Data":
+	{
+		"bUseCustomStartFrame": true,
+		"startFrame": 0,
+		"bUseCustomEndFrame": true,
+		"endFrame": 3350,
+		"warmUpFrameCount": 0,
+		"delayBeforeWarmUp": 0,
+		"burnInOptions": "LevelSequenceBurnInOptions'/Engine/Transient.AutomatedLevelSequenceCapture_0:BurnInOptions'",
+		"bWriteEditDecisionList": true,
+		"levelSequenceAsset": "/Game/Flyover.Flyover",
+		"levelSequenceActor": "None",
+		"captureType":
+		{
+			"identifier": "Video"
+		},
+		"protocolSettings": "VideoCaptureSettings'/Engine/Transient.AutomatedLevelSequenceCapture_0:VideoCaptureSettings_0'",
+		"settings":
+		{
+			"outputDirectory":
+			{
+				"path": "..\\..\\..\\..\\..\\..\\Users\\sacha\\Documents\\Unreal Projects\\cis106\\Saved\\VideoCaptures\\"
+			},
+			"bCreateTemporaryCopiesOfLevels": false,
+			"gameModeOverride": "None",
+			"outputFormat": "{world}",
+			"bOverwriteExisting": true,
+			"bUseRelativeFrameNumbers": false,
+			"zeroPadFrameNumbers": 4,
+			"frameRate": 60,
+			"resolution":
+			{
+				"resX": 1920,
+				"resY": 1080
+			},
+			"bEnableTextureStreaming": false,
+			"bCinematicMode": true,
+			"bAllowMovement": false,
+			"bAllowTurning": false,
+			"bShowPlayer": false,
+			"bShowHUD": false
+		},
+		"bUseSeparateProcess": true,
+		"bCloseEditorWhenCaptureStarts": false,
+		"additionalCommandLineArguments": "-NOSCREENMESSAGES",
+		"inheritedCommandLineArguments": ""
+	},
+	"AdditionalData":
+	{
+		"ProtocolType": "/Script/MovieSceneCapture.VideoCaptureSettings",
+		"ProtocolData":
+		{
+			"bUseCompression": false,
+			"compressionQuality": 100,
+			"videoCodec": ""
+		},
+		"BurnInOptions":
+		{
+			"bUseBurnIn": false,
+			"burnInClass": "/Engine/Sequencer/DefaultBurnIn.DefaultBurnIn_C",
+			"settings": "DefaultBurnInOptions_C'/Engine/Transient.AutomatedLevelSequenceCapture_0:BurnInOptions.DefaultBurnInOptions_C_0'"
+		},
+		"BurnInOptionsInitSettings":
+		{
+			"topLeftText": "",
+			"topCenterText": "{MasterName} - {Date}",
+			"topRightText": "",
+			"bottomLeftText": "{ShotName}",
+			"bottomCenterText": "{hh}:{mm}:{ss}:{ff} ({MasterFrame})",
+			"bottomRightText": "{ShotFrame}",
+			"watermark": "None",
+			"watermarkTint":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 0.5
+			},
+			"font":
+			{
+				"fontObject": "Font'/Engine/EngineFonts/DroidSansMono.DroidSansMono'",
+				"fontMaterial": "None",
+				"typefaceFontName": "Default",
+				"size": 16
+			}
+		}
+	}
+}
